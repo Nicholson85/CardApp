@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Paul_Nicholson/Projects/CardExercise/CardAppTest/CardAppTest.csproj": {}
+  },
+  "projects": {
+    "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/CardApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/CardApp.csproj",
+        "projectName": "CardApp",
+        "projectPath": "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/CardApp.csproj",
+        "packagesPath": "/Users/Paul_Nicholson/.nuget/packages/",
+        "outputPath": "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Paul_Nicholson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Paul_Nicholson/Projects/CardExercise/CardAppTest/CardAppTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Paul_Nicholson/Projects/CardExercise/CardAppTest/CardAppTest.csproj",
+        "projectName": "CardAppTest",
+        "projectPath": "/Users/Paul_Nicholson/Projects/CardExercise/CardAppTest/CardAppTest.csproj",
+        "packagesPath": "/Users/Paul_Nicholson/.nuget/packages/",
+        "outputPath": "/Users/Paul_Nicholson/Projects/CardExercise/CardAppTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Paul_Nicholson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/CardApp.csproj": {
+                "projectPath": "/Users/Paul_Nicholson/Projects/CardExercise/CardApp/CardApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
